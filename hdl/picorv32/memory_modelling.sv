@@ -22,7 +22,6 @@ module memory_modelling (input logic clk,
       mem_write (mem_la_addr, mem_la_wstrb, mem_la_wdata);
     end
 
-    $display ("Size of the mem = %0x and values are %0p \n", foobar.size(), foobar);
   end
 
   // Read function
